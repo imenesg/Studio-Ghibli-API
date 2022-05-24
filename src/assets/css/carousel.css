@@ -1,0 +1,12 @@
+.carousel{
+    width: 100%;
+}
+.carousel .banners{
+    width: 100%;
+    max-width: 800px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+.carousel .banners img{
+    border-radius: 1rem;
+}
