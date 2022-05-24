@@ -57,7 +57,6 @@ function Films(){
             
             
             {films.map((film, index)=>{
-            {/*<img src={film.image} alt="Movie banner"></img> */};
               return(
                 <img className="movie_img" src={film.image} key={index} alt="Movie banner" onClick={()=> setaInfos(film.movie_banner, film.title, film.rt_score, film.running_time, film.description) }></img>
               )
