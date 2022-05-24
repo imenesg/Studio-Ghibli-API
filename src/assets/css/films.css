@@ -37,8 +37,7 @@
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.397);
-    backdrop-filter: blur(10px);
+    
     
 
     padding: 1rem;
@@ -117,3 +116,22 @@
         max-width: 300px;
      }
 }
+
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .blurred-container {
+      -webkit-backdrop-filter: blur(10px);
+      
+
+
+      background-color: rgba(255, 255, 255, 0.397);
+        backdrop-filter: blur(10px);
+    }
+  }
+  
+  /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+  @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .blurred-container {
+        background-color: rgba(255, 255, 255, 0.900);
+    }
+  }

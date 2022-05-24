@@ -6,7 +6,7 @@ import tomato from "../assets/img/tomato.svg"
 
 function BigCard(props){
     return(
-        <div className="containerBigcard">
+        <div className="containerBigcard blurred-container">
             <div className="bigcard">
                 <div className="close" onClick={props.remove}><i className='bx bx-x'></i></div>
                 <img src={props.img} alt="movie banner"></img>
