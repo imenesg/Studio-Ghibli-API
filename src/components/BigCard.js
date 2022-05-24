@@ -13,7 +13,7 @@ function BigCard(props){
 
                 <span className="title">{props.title}</span>
 
-                <div className="Nota_duracao"> <span className="nota"><img className="tomato" src={tomato} alt="rt score"></img>{props.score}</span>       <span className="duracao"><i className='bx bxs-stopwatch time'></i>{props.time}m</span></div>
+                <div className="Nota_duracao"> <span className="nota"><img className="tomato" src={tomato} alt="rt score"></img>{props.score}</span>       <span className="duracao"><i className='bx bxs-stopwatch time'></i>{props.time}m</span>    <span className="duracao"><i className='bx bxs-calendar time'></i>{props.release_date}</span></div>
 
 
                 <p>{props.description}</p>

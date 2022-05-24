@@ -13,8 +13,8 @@ function Films(){
     const [infoFIlm , setInfoFIlm] = useState(null)
 
   
-  function setaInfos(img, title, score, time, description ){
-    setInfoFIlm([img, title, score, time, description])
+  function setaInfos(img, title, score, time, description, release_date ){
+    setInfoFIlm([img, title, score, time, description, release_date])
   }
 
    function resetInfoFIlm(){
@@ -51,14 +51,14 @@ function Films(){
           {films? (
             <>
             {
-              infoFIlm? (<BigCard img={infoFIlm[0]} title={infoFIlm[1]} score={infoFIlm[2]} time={infoFIlm[3]} description={infoFIlm[4]} remove={resetInfoFIlm}> </BigCard>)
+              infoFIlm? (<BigCard img={infoFIlm[0]} title={infoFIlm[1]} score={infoFIlm[2]} time={infoFIlm[3]} description={infoFIlm[4]} release_date={infoFIlm[5]} remove={resetInfoFIlm}> </BigCard>)
               :null
             }
             
             
             {films.map((film, index)=>{
               return(
-                <img className="movie_img" src={film.image} key={index} alt="Movie banner" onClick={()=> setaInfos(film.movie_banner, film.title, film.rt_score, film.running_time, film.description) }></img>
+                <img className="movie_img" src={film.image} key={index} alt="Movie banner" onClick={()=> setaInfos(film.movie_banner, film.title, film.rt_score, film.running_time, film.description, film.release_date ) }></img>
               )
               
             })}
