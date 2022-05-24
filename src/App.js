@@ -1,6 +1,7 @@
 import Header from "./components/Header.js";
 import Carousel from "./components/Carousel.js";
 import Films from "./components/Films.js";
+import Buttonslink from "./components/Buttonslink.js";
 
 
 import "../src/assets/css/reset.css"
@@ -14,6 +15,7 @@ function App() {
     <Header></Header>
     <Carousel></Carousel>
     <Films></Films>
+    <Buttonslink></Buttonslink>
     </>
    
   );
