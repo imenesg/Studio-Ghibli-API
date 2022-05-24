@@ -12,12 +12,12 @@
     display: flex;
     overflow-x: scroll;
     z-index: 1;
+    width: 100%;
 }
 
 .allFilms .movie_img{
-   width: 40%;
+   max-width: 150px;
    border-radius: 1rem;
-   max-width: 300px;
    margin-right:1rem;
    cursor: pointer;
 }
@@ -71,44 +71,33 @@
 }
  .bigcard img{
     width: 100%;
-    max-width: unset;
     margin-bottom: .5rem;
     border-radius: 1rem;
 }
 .bigcard span{
     font-size: 1.5rem;
-
     font-weight: 700;
-
     margin-left: 1rem;
-    
 }
 .bigcard .Nota_duracao{
     margin-top: .5rem;  
 }
 .bigcard .Nota_duracao{
     display: flex;
-
     align-items: center;
-    
 }
 .bigcard .Nota_duracao span{
     display: flex;
     margin-right: 1rem;
     align-items: center;
-
-   
-    
 }
 .bigcard .Nota_duracao span:nth-child(1){
     display: flex;
     margin-right: 1rem;
     align-items: center;
-    
 }
 .bigcard .tomato{
     width: 1.5rem;
-    
 }
 .time{
     color: var(--cor2);
@@ -116,11 +105,15 @@
 }
 .bigcard p{
     margin-top: 1rem;  
-    
     padding: .5rem;
     border-radius: 1rem;
-
     font-weight: 700;
+}
 
-    
+
+@media (min-width: 600px)
+{
+    .allFilms .movie_img{
+        max-width: 300px;
+     }
 }
