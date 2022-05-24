@@ -25,7 +25,7 @@ MudaBaner()
     return(
         <div className="carousel">
             <div className="banners" >
-                <img className="mySlides" src={banners[baner]} style={{width:'100%'}}></img>
+                <img className="mySlides" src={banners[baner]} style={{width:'100%'}} alt="baner"></img>
             </div>
         </div>
     );
