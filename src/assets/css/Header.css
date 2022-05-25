@@ -3,4 +3,5 @@ header{
 }
 header img{
     width: 6.25rem;
+    cursor: pointer;
 }
