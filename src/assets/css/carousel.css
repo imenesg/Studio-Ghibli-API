@@ -4,8 +4,8 @@
 .carousel .banners{
     width: 100%;
     max-width: 800px;
-    padding-inline: 1rem;
-    margin-inline: auto;
+    padding:0 1rem;
+    margin: 0 auto;
 }
 .carousel .banners img{
     border-radius: 1rem;
