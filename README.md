@@ -1,3 +1,24 @@
+# 🔵 Projeto Studio Ghibli 🔵
+
+
+### 👋Olá, esse é um projeto em react.js feito por mim, nele você pode conferir o catálogo de filmes Studio Ghibli✏️, um estúdio de animação do japão que faz trabalhos simplesmente incríveis (recomendo). <br>
+
+### 🖥️Realizei o projeto utilizando: React.js e uma API para as informações como: imagem, título, resumo e todas outras visíveis no site.
+<P>
+
+  
+  <p align="center">
+    
+  <img width="550" height="" src="https://user-images.githubusercontent.com/69609443/170533919-176833a3-0796-40ea-80ea-4947b4d5c76a.png">
+</p>
+ 
+ ## O site tambem é totalmente responsivo📱.
+   
+
+  
+## De uma olhada. 😃**LINK**:[https://imenesg.github.io/Fruta_E_Fruto/](https://imenesg-studio-ghibli.netlify.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
