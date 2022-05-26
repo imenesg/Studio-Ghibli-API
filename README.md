@@ -16,7 +16,7 @@
    
 
   
-## De uma olhada. 😃**LINK**:[https://imenesg.github.io/Fruta_E_Fruto/](https://imenesg-studio-ghibli.netlify.app/)
+## De uma olhada. 😃**LINK**: https://imenesg-studio-ghibli.netlify.app/
 
 
 # Getting Started with Create React App
